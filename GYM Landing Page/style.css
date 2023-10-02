@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Skranji&family=Ubuntu+Condensed&family=Ubuntu:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    max-width: 80vw;
+}
+.h-font{
+    font-family: 'Lobster', cursive;
+}
+.navbar{
+    display: flex;
+    height: 67px;
+    font-family: 'Skranji', cursive;
+}
+
+.navbar li{
+    list-style: none;
+    margin: 0 12px;
+}
+
+.top-left{
+    padding: 12px 0;
+    width: 50%;
+}
+
+.top-right{
+    width: 50%;
+}
+
+.section1{
+    max-height: 100vh;
+}
+.logo{
+    font-size: 1.3rem;
+}
+.img-padding{
+    padding-top: 10px;
+    padding-left: 10px;
+}
+.bg-col{
+    background-color: #4158D0;
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+
+}
+.fnt-size{
+    font-size: largest;
+}
+
+.txt-align-l{
+    text-align: left;
+}
+.section2 div h2{
+    font-family: 'Lobster', cursive;
+}
+.plan-font{
+    font-size: 25px;
+    font-weight: bolder;
+}
+.para-padding{
+    padding-left: 60px;
+    padding-right: 60px;
+}
+.text-container1 {
+    position: absolute;
+    color: rgb(255, 255, 255);
+    left: 11rem;
+    top: 49rem;
+    background-color: rgb(41, 41, 41, 0.8);
+    padding: 0 1rem;
+}
+
+.text-container2 {
+    position: absolute;
+    color: rgb(255, 255, 255);
+    left: 34.6rem;
+    top: 47.7rem;
+    background-color: rgb(41, 41, 41, 0.8);
+    padding: 0 1rem;
+}
+
+.text-container3 {
+    position: absolute;
+    color: rgb(255, 255, 255);
+    left: 61rem;
+    top: 48.8rem;
+    background-color: rgb(41, 41, 41, 0.8);
+    padding: 0 1rem;
+}
